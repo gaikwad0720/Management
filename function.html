@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	 function fun(i) {
+	 	if (i < 0) {
+	 		return;
+	 	}
+
+		document.write('start:(i)'"<br>");
+
+		fun(i - 1);
+
+		document.write('end:(i)');
+		
+	}
+	fun(3);
+</script>
+</body>
+</html>
